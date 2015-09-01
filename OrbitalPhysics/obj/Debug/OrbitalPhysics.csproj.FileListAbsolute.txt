@@ -1,0 +1,8 @@
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\bin\Debug\OrbitalPhysics.exe.config
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\bin\Debug\OrbitalPhysics.exe
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\bin\Debug\OrbitalPhysics.pdb
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\obj\Debug\OrbitalPhysics.csprojResolveAssemblyReference.cache
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\obj\Debug\OrbitalPhysics.Properties.Resources.resources
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\obj\Debug\OrbitalPhysics.csproj.GenerateResource.Cache
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\obj\Debug\OrbitalPhysics.exe
+c:\users\brandon\documents\visual studio 2013\Projects\OrbitalPhysics\OrbitalPhysics\obj\Debug\OrbitalPhysics.pdb
