@@ -23,16 +23,27 @@ namespace OrbitalPhysics
 
             objectList.Add(new CelestialObject(10, 10, 100, 50, 100));
             objectList.Add(new CelestialObject(10, 10, 200, 305, 100));
-            foreach (CelestialObject celObject in objectList)
+            for (int i = 0; i < 100; i++)
             {
-                Paint(celObject.getDiameter(), celObject.getX(), celObject.getY());
+                objectList.ForEach(x => move(x));
+                Paint();
+                System.Threading.Thread.Sleep(100);
             }
-            System.Threading.Thread.Sleep(5000);
         }
 
-        public void Paint(float diameter, float xpos, float ypos)
+        public void Paint()
         {
-            graphicsObject.FillEllipse(Brushes.Red, xpos, ypos, diameter, diameter);
+            graphicsObject.Clear(Color.Black);
+            objectList.ForEach(x =>
+            {
+                graphicsObject.FillEllipse(Brushes.Red, x.getX(), x.getY(), x.getDiameter(), x.getDiameter());
+            });
+        }
+
+        public void move(CelestialObject celObj)
+        {
+            celObj.setX(celObj.getX() + 1);
+            celObj.setY(celObj.getY() + 1);
         }
     }
 }
